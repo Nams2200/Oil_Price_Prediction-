@@ -9,7 +9,6 @@ st.image("oil-price-predictions.png",channels='RGB',output_format="PNG")
 model = joblib.load('random_forest_model_save14.pkl')
 
 st.header('Oil Price Prediction Day Wise',divider='rainbow')
-st.text("Day Wise Oil Price Prediction")
 
 # Input features for prediction
 
