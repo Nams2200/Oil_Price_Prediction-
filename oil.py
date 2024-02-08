@@ -19,7 +19,7 @@ day = st.number_input('Day', min_value=1, max_value=31, value=1)
 Volume = 100000
 
 # Make a prediction
-prediction_data = {'Year': [year], 'Month': [month], 'Day': [day]}
+prediction_data = {'Year': [year], 'Month': [month], 'Day': [day], 'Volume': [Volume]}
 input_df = pd.DataFrame(prediction_data)
 prediction = model.predict(input_df)
 
