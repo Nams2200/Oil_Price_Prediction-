@@ -12,7 +12,7 @@ st.header('Oil Price Prediction Day Wise',divider='rainbow')
 
 # Input features for prediction
 
-st.text("Enter the Value for Year, Month, Day and Volume")
+st.text("Enter the Value for Year, Month, Day")
 year = st.number_input('Year', value=2023)
 month = st.number_input('Month', min_value=1, max_value=12, value=1)
 day = st.number_input('Day', min_value=1, max_value=31, value=1)
