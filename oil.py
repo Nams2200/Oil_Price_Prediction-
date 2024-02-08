@@ -16,7 +16,7 @@ st.text("Enter the Value for Year, Month, Day and Volume")
 year = st.number_input('Year', value=2023)
 month = st.number_input('Month', min_value=1, max_value=12, value=1)
 day = st.number_input('Day', min_value=1, max_value=31, value=1)
-volume = st.number_input('Volume', value=100000)
+
 
 # Make a prediction
 prediction_data = {'Year': [year], 'Month': [month], 'Day': [day], 'Volume': [volume]}
